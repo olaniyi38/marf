@@ -43,17 +43,21 @@ const approaches = [
 
 const Approach = () => {
 	return (
-		<section className=" ">
-			<div className="px-4 md:px-8 py-8 md:py-12  space-y-8 md:space-y-12">
-				<h1 className="text-2xl text-center text-brick-red uppercase underline underline-offset-[.3rem] md:font-bold">
+		<section className="max-w-[80rem] mx-auto ">
+			<div className="px-4 md:px-8 py-8 md:py-12 lg:px-8 lg:py-20 space-y-8 md:space-y-12">
+				<h1 className="text-2xl lg:text-3xl text-center text-brick-red uppercase underline underline-offset-[.3rem]">
 					How we win
 				</h1>
-				<p className=" text-center font-medium text-lg md:max-w-[80%] md:mx-auto">
-					Education is a vital part of prevention. Through engaging,
-					discussion-based presentations, MARF aims to enlighten our male
-					counterparts on the following;
+				<p className=" text-center font-medium text-lg lg:text-xl md:max-w-[80%] lg:max-w-[60%] md:mx-auto">
+					<span className=" md:block">
+						Education is a vital part of prevention.
+					</span>
+					<span className="md:block">
+						Through engaging, discussion-based presentations,
+					</span>
+					MARF aims to enlighten our male counterparts on the following;
 				</p>
-				<div className="grid md:grid-cols-2 gap-8 px-3"> 
+				<div className="grid md:grid-cols-2 gap-8 lg:gap-12  px-3 lg:py-12">
 					{approaches.map(({ title, items }) => (
 						<div className=" border border-gray-300 rounded">
 							<div>
@@ -63,11 +67,11 @@ const Approach = () => {
 									className="w-full h-auto object-cover"
 								/>
 							</div>
-							<div className=" px-3 py-4">
+							<div className=" px-3 py-4 lg:px-8 lg:py-6">
 								<h3 className=" font-semibold text-[1.2rem] mb-3">{title}</h3>
 								<p>We teach men: </p>
 								{items.map((item) => (
-									<p> - {item}</p>
+									<p className=" mb-2"> - {item}</p>
 								))}
 							</div>
 						</div>

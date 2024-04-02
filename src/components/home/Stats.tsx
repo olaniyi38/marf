@@ -1,5 +1,5 @@
-
 import { GoArrowRight } from "react-icons/go";
+import Button, { BUTTON_TYPES } from "../shared/Button";
 
 const stats = [
 	{
@@ -21,22 +21,28 @@ const stats = [
 
 const Stats = () => {
 	return (
-		<section className="">
-			<div className="grid md:grid-cols-3 bg-gray-200 py-8 md:px-8">
-				{stats.map(({ value, title, url }) => (
-					<div className="py-16  group even:bg-white even:text-brick-red odd:bg-mandy odd:text-white space-y-8 flex flex-col items-center w-[18rem] md:max-w-[20rem] md:w-full  mx-auto">
-						<p className=" text-5xl font-black">{value}K</p>
-						<p className=" capitalize">{title}</p>
-						<a
-							href={url}
-							className=" block">
-							<button className="px-3 py-2 border border-white group-even:border-mandy  flex items-center gap-x-2 rounded ">
-								Learn More
-								<GoArrowRight className="w-6 h-auto  " />
-							</button>
-						</a>
-					</div>
-				))}
+		<section className="bg-gray-200 py-8 md:px-8 md:py-12">
+			<div className=" lg:max-w-[80rem] mx-auto">
+				<div className="grid md:grid-cols-3">
+					{stats.map(({ value, title, url }) => (
+						<div className="py-8 pl-4 md:pl-8 lg:pl-12 group even:bg-white even:text-brick-red odd:bg-brick-red odd:text-white flex flex-col w-[16rem] md:w-full  mx-auto">
+							<p className=" text-5xl lg:text-6xl xl:text-7xl font-black">{value}K</p>
+							<p className=" capitalize mt-8 mb-28 lg:text-lg ">{title}</p>
+							<a
+								href={url}
+								className=" block">
+								<Button
+									buttonType={BUTTON_TYPES.inverted}
+									extraClasses="border border-white group-even:border-mandy rounded-md ">
+									<div className="flex items-center gap-x-3">
+										Learn More
+										<GoArrowRight className="w-6 h-auto  " />
+									</div>
+								</Button>
+							</a>
+						</div>
+					))}
+				</div>
 			</div>
 		</section>
 	);

@@ -2,12 +2,46 @@
 @tailwind utilities;
 @tailwind components;
 
+
+@layer base {}
+
 @layer utilities {
     .clip-polygon {
         clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+
+        @media screen and (min-width:1024px) {
+            clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+        }
+
+        @media screen and (min-width:1280px) {
+            clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+        }
     }
 
     .grid-auto {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+
+    .grid-overlap {
+        >* {
+            grid-column: 1 / 2;
+            grid-row: 1/2;
+        }
+    }
+
+    .infinite-carousel-animation {
+        >* {
+            animation: infinite-carousel 2s linear infinite;
+        }
+    }
+}
+
+@keyframes infinite-carousel {
+    75% {
+        transform: translate(-300%);
+    }
+
+    75.01% {
+        transform: translate(100%);
     }
 }

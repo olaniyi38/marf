@@ -1,5 +1,3 @@
-
-
 const footerLinks = [
 	{
 		title: "About Us",
@@ -91,40 +89,46 @@ const footerLinks = [
 
 const Footer = () => {
 	return (
-		<footer className="bg-black text-white py-8 px-4 space-y-8">
-			<div className="py-4 px-2 bg-white text-black rounded-lg md:max-w-[80%] md:mx-auto md:flex md:flex-col md:items-center">
-				<div className="">
-					<h3 className="text-lg md:text-xl mb-2">
-						Subscribe to our newsletters
-					</h3>
-					<div className=" flex gap-x-2">
-						<input
-							type="text"
-							className=" bg-slate-200 rounded placeholder:pl-4"
-							placeholder="Enter text here"
-						/>
-						<button className=" bg-black text-white px-2 py-1 md:px-4 md:py-2 rounded">
-							subscribe
-						</button>
+		<footer className=" bg-black text-white py-8 px-4 lg:px-8">
+			<div className="max-w-[80rem] mx-auto space-y-8 ">
+				<div className="py-4 px-2 bg-white text-black rounded-lg md:max-w-[80%] lg:max-w-none md:mx-auto md:flex md:flex-col md:items-center">
+					<div className="">
+						<h3 className="text-lg md:text-xl lg:text-2xl mb-2 font-bold">
+							Subscribe to our newsletters
+						</h3>
+						<div className=" flex gap-x-2 flex-wrap gap-y-2">
+							<input
+								type="text"
+								className=" bg-slate-200 rounded  lg:w-[25rem] p-2 py-3 focus:outline-gray-400"
+								placeholder="Enter text here"
+							/>
+							<button className=" bg-black text-white px-2 py-1 md:px-4 md:py-2 rounded">
+								subscribe
+							</button>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div className=" md:px-4 md:pt-8">
-				<h3 className="mb-4 font-bold text-lg md:text-xl">Marf</h3>
-				<div className=" grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-8">
-					{footerLinks.map(({ title, links }) => (
-						<div key={title}>
-							<h3 className="font-semibold mb-4">{title}</h3>
-							<div className="flex flex-col gap-y-2 text-sm">
-								{links.map((link) => (
-									<a href={link.url}>{link.title}</a>
-								))}
+				<div className=" md:px-4 md:pt-8">
+					<h3 className="mb-4 font-bold text-lg md:text-xl lg:text-2xl">
+						Marf
+					</h3>
+					<div className=" grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-8">
+						{footerLinks.map(({ title, links }) => (
+							<div key={title}>
+								<h3 className="font-semibold mb-4 lg:text-lg">{title}</h3>
+								<div className="flex flex-col gap-y-2 text-sm lg:text-md">
+									{links.map((link) => (
+										<a href={link.url}>{link.title}</a>
+									))}
+								</div>
 							</div>
-						</div>
-					))}
+						))}
+					</div>
 				</div>
+				<aside className="text-xs md:text-sm  md:text-center ">
+					© 2024 Men Against Rape Foundation. All rights reserved
+				</aside>
 			</div>
-			<aside className="text-xs md:text-sm border-t md:text-center ">© 2024 Men Against Rape Foundation. All rights reserved</aside>
 		</footer>
 	);
 };
