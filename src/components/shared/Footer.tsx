@@ -87,22 +87,22 @@ const footerLinks = [
 			{
 				title: "Dribble",
 				url: "https://www.facebook.com/pages",
-				icon: <FaDribbble />,
+				icon: <FaDribbble className=" lg:w-5 h-auto"/>,
 			},
 			{
 				title: "Twitter",
 				url: "https://twitter.com/login",
-				icon: <FaTwitter />,
+				icon: <FaTwitter className=" lg:w-5 h-auto"/>,
 			},
 			{
 				title: "Instagram",
 				url: "https://www.instagram.com/accounts/login/",
-				icon: <FaInstagram />,
+				icon: <FaInstagram className=" lg:w-5 h-auto"/>,
 			},
 			{
 				title: "YouTube",
 				url: "https://www.youtube.com/",
-				icon: <FaYoutube />,
+				icon: <FaYoutube className=" lg:w-5 h-auto"/>,
 			},
 		],
 	},
@@ -147,7 +147,7 @@ const Footer = () => {
 											))}
 										</div>
 									)}
-									<div className="flex flex-col gap-y-2 text-sm lg:text-md">
+									<div className="flex flex-col gap-y-2 lg:gap-y-4 text-sm lg:text-[.9rem]">
 										{links.map((link) => (
 											<a href={link.url}>{link.title}</a>
 										))}
