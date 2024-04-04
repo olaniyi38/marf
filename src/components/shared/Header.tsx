@@ -1,8 +1,5 @@
 import { FaBars } from "react-icons/fa6";
 import Button from "./Button";
-
-import "swiper/css";
-import "swiper/css/autoplay";
 import Marquee from "react-fast-marquee";
 import { useState } from "react";
 
