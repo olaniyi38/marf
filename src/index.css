@@ -3,7 +3,45 @@
 @tailwind components;
 
 
-@layer base {}
+@layer components {
+    .mobile-nav {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        right: 0;
+        z-index: 5;
+        overflow: hidden;
+        clip-path: inset(0% 0% 100% 0%);
+        transition: clip-path .4s .5s ease-in-out;
+
+        &.active {
+            clip-path: inset(0% 0% 0% 0%);
+            transition: clip-path .4s ease-in-out;
+
+
+            a>span {
+                transform: translateY(0px);
+                transition: transform .4s .5s ease-in-out;
+            }
+
+            button {
+                opacity: 1;
+                transition: opacity .4s .7s ease-in-out;
+            }
+        }
+
+        a>span {
+            transform: translateY(40px);
+            transition: transform .4s ease-in-out;
+        }
+
+        button {
+            opacity: 0;
+            transition: opacity .2s .3s ease-in-out;
+        }
+
+    }
+}
 
 @layer utilities {
     .clip-polygon {
@@ -29,19 +67,4 @@
         }
     }
 
-    .infinite-carousel-animation {
-        >* {
-            animation: infinite-carousel 2s linear infinite;
-        }
-    }
-}
-
-@keyframes infinite-carousel {
-    75% {
-        transform: translate(-300%);
-    }
-
-    75.01% {
-        transform: translate(100%);
-    }
 }

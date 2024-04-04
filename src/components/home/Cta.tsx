@@ -23,9 +23,9 @@ const Cta = () => {
 					<Button extraClasses="self-start">Join Us</Button>
 				</div>
 			</div>
-			<div className="bg-white py-12 md:px-12 lg:py-20 ">
-				<div className="max-w-[80rem]   mx-auto rounded-lg bg-brick-red text-white py-8 px-8  text-center space-y-4 md:space-y-8">
-					<p className=" font-semibold md:px-4 text-lg md:text-[1.7rem]  xl:text-4xl max-w-[70%] text-center  mx-auto">
+			<div className="bg-white py-12 px-6 md:px-12 lg:py-20 ">
+				<div className="max-w-[80rem] mx-auto rounded-lg bg-brick-red text-white py-8 px-8  text-center space-y-4 md:space-y-8">
+					<p className=" font-semibold md:px-4 text-lg md:text-[1.7rem]  xl:text-4xl lg:max-w-[70%] text-center  mx-auto">
 						Together we can safeguard our women and children from sexual
 						violators
 						<span className=" block">Join us today</span>

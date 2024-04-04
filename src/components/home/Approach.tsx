@@ -44,7 +44,7 @@ const approaches = [
 const Approach = () => {
 	return (
 		<section className="max-w-[80rem] mx-auto ">
-			<div className="px-4 md:px-8 py-8 md:py-12 lg:px-8 lg:py-20 space-y-8 md:space-y-12">
+			<div className="px-6 md:px-8 py-8 md:py-12 lg:px-8 xl:px-0 lg:py-20 space-y-8">
 				<h1 className="text-2xl lg:text-3xl text-center text-brick-red uppercase underline underline-offset-[.3rem]">
 					How we win
 				</h1>
@@ -57,7 +57,7 @@ const Approach = () => {
 					</span>
 					MARF aims to enlighten our male counterparts on the following;
 				</p>
-				<div className="grid md:grid-cols-2 gap-8 lg:gap-12  px-3 lg:py-12">
+				<div className="grid md:grid-cols-2 gap-8 lg:gap-12 lg:py-12">
 					{approaches.map(({ title, items }) => (
 						<div className=" border border-gray-300 rounded">
 							<div>

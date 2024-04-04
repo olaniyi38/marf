@@ -3,19 +3,19 @@ import Button from "../shared/Button";
 
 const Hero = () => {
 	return (
-		<section className="md:relative md:grid grid-overlap   max-w-none">
-			<div className="md:z-[1] justify-self-end lg:max-w-[65%] xl:max-w-[60%] w-full">
+		<section className="md:relative md:grid grid-overlap max-w-none">
+			<div className="md:z-[1] justify-self-end h-full  lg:max-w-[60%] xl:max-w-[60%]">
 				<img
 					src={imageSrc}
 					alt="volunteer image"
-					className=" w-full h-auto"
+					className="object-cover w-full h-full"
 				/>
 			</div>
-			<div className=" p-8 lg:py-16 lg:px-[5.5rem] bg-brick-red text-white space-y-4 md:space-y-8 md:z-[2] md:relative md:h-full md:clip-polygon md:max-w-[35rem] lg:max-w-[55%] xl:max-w-[60%] ">
+			<div className=" p-8 lg:py-16 xl:px-[4.2rem] bg-brick-red text-white space-y-4 md:space-y-8 md:z-[2] md:relative md:clip-polygon md:max-w-[60%]  xl:max-w-[60%] ">
 				<h1 className=" text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:pr-8 font-bold max-w-[45rem]">
 					Empowering Men to Stand Against Sexual Violence
 				</h1>
-				<p className="md:max-w-[80%] lg:max-w-[65%] lg:text-xl">
+				<p className="md:max-w-[80%] lg:max-w-[65%] xl:text-lg">
 					When one man speaks up… changes happens. Imagine what will happen if
 					we all speak up. Society can become safer for every child, if you lend
 					a helping hand or raise your voice at the evil ones.

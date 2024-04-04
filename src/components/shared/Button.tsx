@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes, ReactNode } from "react";
 
 export const BUTTON_TYPES = {
-	regular: "bg-black text-white ",
+	regular: "bg-black text-white hover:bg-gray-800 transition",
 	inverted: "bg-none ",
 };
 type Props = {

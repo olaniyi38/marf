@@ -28,7 +28,7 @@ const stories = [
 const SuccessStories = () => {
 	return (
 		<section className="max-w-[80rem] mx-auto">
-			<div className=" py-12 px-4 md:px-8 lg:py-20 ">
+			<div className=" py-12 px-6 md:px-8 lg:py-20 lg:px-12 xl:px-0">
 				<div className="space-y-8 lg:space-y-10 text-center">
 					<h1 className="text-xl md:text-2xl lg:text-3xl uppercase underline underline-offset-[.5rem] text-brick-red">
 						we have won some battles
