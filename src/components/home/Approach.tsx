@@ -71,7 +71,7 @@ const Approach = () => {
 								<h3 className=" font-semibold text-[1.2rem] mb-3">{title}</h3>
 								<p>We teach men: </p>
 								{items.map((item) => (
-									<p className=" mb-2"> - {item}</p>
+									<p className="text-[1.07rem] mb-2"> - {item}</p>
 								))}
 							</div>
 						</div>

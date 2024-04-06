@@ -15,7 +15,7 @@ const Hero = () => {
 				<h1 className=" text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:pr-8 font-bold max-w-[45rem]">
 					Empowering Men to Stand Against Sexual Violence
 				</h1>
-				<p className="md:max-w-[80%] lg:max-w-[65%] xl:text-lg">
+				<p className="text-[1.07rem] md:max-w-[80%] lg:max-w-[65%] xl:text-lg">
 					When one man speaks up… changes happens. Imagine what will happen if
 					we all speak up. Society can become safer for every child, if you lend
 					a helping hand or raise your voice at the evil ones.

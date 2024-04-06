@@ -43,6 +43,7 @@ const Header = () => {
 		<>
 			<div className="sticky top-0 z-30">
 				<Marquee
+					speed={30}
 					pauseOnHover
 					className="px-3 text-sm bg-brick-red text-white   md:py-2 ">
 					{FACTS.map((fact) => (

@@ -29,7 +29,7 @@ const Stats = () => {
 							<p className=" text-5xl lg:text-6xl xl:text-7xl font-black">
 								{value}K
 							</p>
-							<p className=" capitalize mt-8 mb-20 md:mb-28 lg:text-lg ">{title}</p>
+							<p className=" capitalize mt-8 mb-20 md:mb-28 text-[1.07rem] lg:text-lg ">{title}</p>
 							<a
 								href={url}
 								className=" block">

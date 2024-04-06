@@ -33,7 +33,7 @@ const SuccessStories = () => {
 					<h1 className="text-xl md:text-2xl lg:text-3xl uppercase underline underline-offset-[.5rem] text-brick-red">
 						we have won some battles
 					</h1>
-					<p className="font-medium text-balance md:text-lg lg:text-xl lg:max-w-[60rem] lg:mx-auto">
+					<p className="font-medium text-balance text-[1.07rem] md:text-lg lg:text-xl lg:max-w-[60rem] lg:mx-auto">
 						We have been on a mission to cultivate a cohort of male champions
 						dedicated to eradicating SGBV in our communities and nation. It is
 						getting more serious… But the good news is we have on many battles
@@ -51,7 +51,7 @@ const SuccessStories = () => {
 									className="w-full h-auto aspect-[4/3]"
 								/>
 							</div>
-							<p className=" max-w-[50%] lg:text-lg">{title}</p>
+							<p className=" pr-4 text-[1.07rem] lg:text-lg">{title}</p>
 							<a
 								href={url}
 								className=" block">

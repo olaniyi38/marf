@@ -147,7 +147,7 @@ const Footer = () => {
 											))}
 										</div>
 									)}
-									<div className="flex flex-col gap-y-2 lg:gap-y-4 text-sm lg:text-[.9rem]">
+									<div className="flex flex-col gap-y-2 lg:gap-y-4 lg:text-[.9rem]">
 										{links.map((link) => (
 											<a href={link.url}>{link.title}</a>
 										))}
