@@ -25,6 +25,20 @@ const stories = [
 	},
 ];
 
+const currentStories = [
+	{
+		img: imageSrc,
+		title:
+			"Members and volunteers of Men Against Rape Foundation with their lawyer, Barrister Chioma Onyenucheya-Uko at the Federal High Court, Abuja Division after hearing of the suit filed by Premiere Academy, Lugbe, Abuja, seeking to stop Federal Competition and Consumer Protection Commission from investigating it for alleged service failure, allegedly leading to death of its student, 14 year old Miss Keren-Happuch Aondodoo Akpagher",
+		url: "#",
+	},
+	{
+		img: imageSrc,
+		title: "We Champion the Mantra “No Means No",
+		url: "#",
+	},
+];
+
 const SuccessStories = () => {
 	return (
 		<section className="max-w-[80rem] mx-auto">
@@ -59,6 +73,32 @@ const SuccessStories = () => {
 							</a>
 						</div>
 					))}
+				</div>
+				<div className="pt-8">
+					<div>
+						<h1 className="text-xl md:text-2xl lg:text-3xl uppercase underline underline-offset-[.5rem] text-brick-red">
+							Some battles we are currently fighting
+						</h1>
+					</div>
+					<div className="mt-8 md:mt-12 lg:mt-20 grid md:grid-cols-2 gap-8 md:gap-y-10 lg:gap-12 ">
+						{currentStories.map(({ img, url, title }) => (
+							<div className="space-y-4">
+								<div>
+									<img
+										src={img}
+										alt=""
+										className="w-full h-auto aspect-[4/3]"
+									/>
+								</div>
+								<p className=" pr-4 lg:text-lg">{title}</p>
+								<a
+									href={url}
+									className=" block">
+									<Button>Learn More</Button>
+								</a>
+							</div>
+						))}
+					</div>
 				</div>
 			</div>
 		</section>
