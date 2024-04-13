@@ -25,11 +25,15 @@ const Stats = () => {
 			<div className=" lg:max-w-[80rem] mx-auto">
 				<div className="grid md:grid-cols-3">
 					{stats.map(({ value, title, url }) => (
-						<div className="py-12 pl-4 md:pl-8 lg:pl-12 group/border even:bg-white even:text-brick-red odd:bg-brick-red odd:text-white flex flex-col w-[16rem] md:w-full  mx-auto">
+						<div
+							key={title}
+							className="py-12 pl-4 md:pl-8 lg:pl-12 group/border even:bg-white even:text-brick-red odd:bg-brick-red odd:text-white flex flex-col max-[400px]:w-[16rem] w-[20rem] md:w-full  mx-auto">
 							<p className=" text-5xl lg:text-6xl xl:text-7xl font-black">
 								{value}K
 							</p>
-							<p className=" capitalize mt-8 mb-20 md:mb-28 text-[1.07rem] lg:text-lg ">{title}</p>
+							<p className=" capitalize mt-8 mb-20 md:mb-28 text-[1.07rem] lg:text-lg ">
+								{title}
+							</p>
 							<a
 								href={url}
 								className=" block">

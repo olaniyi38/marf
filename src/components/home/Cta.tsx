@@ -9,7 +9,7 @@ const Cta = () => {
 					<h1 className=" font-black uppercase text-xl md:text-2xl lg:text-3xl">
 						our plans
 					</h1>
-					<p className=" space-y-8 *:block text-[1.07rem] lg:text-xl md:max-w-[70%]">
+					<p className=" space-y-8 *:block text-[1.07rem] lg:text-xl md:max-w-[80%]">
 						<span>
 							Providing prevention mechanisms and supporting survivors with
 							pyschosocial services.

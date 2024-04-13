@@ -87,22 +87,22 @@ const footerLinks = [
 			{
 				title: "Dribble",
 				url: "https://www.facebook.com/pages",
-				icon: <FaDribbble className=" lg:w-5 h-auto"/>,
+				icon: <FaDribbble className=" lg:w-5 h-auto" />,
 			},
 			{
 				title: "Twitter",
 				url: "https://twitter.com/login",
-				icon: <FaTwitter className=" lg:w-5 h-auto"/>,
+				icon: <FaTwitter className=" lg:w-5 h-auto" />,
 			},
 			{
 				title: "Instagram",
 				url: "https://www.instagram.com/accounts/login/",
-				icon: <FaInstagram className=" lg:w-5 h-auto"/>,
+				icon: <FaInstagram className=" lg:w-5 h-auto" />,
 			},
 			{
 				title: "YouTube",
 				url: "https://www.youtube.com/",
-				icon: <FaYoutube className=" lg:w-5 h-auto"/>,
+				icon: <FaYoutube className=" lg:w-5 h-auto" />,
 			},
 		],
 	},
@@ -121,7 +121,7 @@ const Footer = () => {
 							<input
 								type="text"
 								className=" bg-slate-200 rounded  lg:w-[25rem] p-2 py-3 focus:outline-gray-400"
-								placeholder="Enter text here"
+								placeholder="Enter your Email"
 							/>
 							<Button>Subscribe</Button>
 						</div>
@@ -140,6 +140,7 @@ const Footer = () => {
 										<div className=" flex flex-wrap items-center gap-2 lg:gap-x-4 mb-4">
 											{socials.map(({ url, icon }) => (
 												<a
+													key={url}
 													href={url}
 													className="bg-brick-red rounded-full p-2">
 													{icon}

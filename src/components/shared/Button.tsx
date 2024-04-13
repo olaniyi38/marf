@@ -1,12 +1,12 @@
 import { ButtonHTMLAttributes, ReactNode } from "react";
 
-export const BUTTON_TYPES = {
-	regular: "bg-black text-white hover:bg-gray-800 transition",
-	inverted: "bg-none ",
-};
+export enum BUTTON_TYPES {
+	regular = "bg-black text-white hover:bg-gray-800 transition",
+	inverted = "bg-none",
+}
 type Props = {
 	children: ReactNode;
-	buttonType?: string;
+	buttonType?: BUTTON_TYPES;
 	extraClasses?: string;
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 

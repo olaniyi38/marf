@@ -52,7 +52,7 @@ const Header = () => {
 				</Marquee>
 			</div>
 			<header className=" sticky top-5 bg-white lg:static">
-				<div className="px-3 py-2 md:px-6 md:py-4 xl:px-0 flex items-center justify-between max-w-[90rem] mx-auto ">
+				<div className="px-3 py-2 md:px-6 md:py-4 xl:px-4 flex items-center justify-between max-w-[85rem] mx-auto ">
 					<span className=" font-black text-brick-red md:text-lg lg:text-xl">
 						MARF
 					</span>
@@ -61,6 +61,7 @@ const Header = () => {
 							{NAV_LINKS.map(({ title, url }) => (
 								<a
 									href={url}
+									key={title + url}
 									className="capitalize inline-block hover:text-gray-600 ">
 									{title}
 								</a>

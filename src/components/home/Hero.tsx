@@ -11,7 +11,7 @@ const Hero = () => {
 					className="object-cover w-full h-full"
 				/>
 			</div>
-			<div className=" p-8 lg:py-16 xl:px-[4.2rem] bg-brick-red text-white space-y-4 md:space-y-8 md:z-[2] md:relative md:clip-polygon md:max-w-[60%]  xl:max-w-[60%] ">
+			<div className=" p-8 lg:py-16 xl:px-[4.2rem] bg-brick-red text-white space-y-4 md:space-y-8 md:z-[2] md:relative md:clip-polygon md:max-w-[65%]  xl:max-w-[60%] ">
 				<h1 className=" text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:pr-8 font-bold max-w-[45rem]">
 					Empowering Men to Stand Against Sexual Violence
 				</h1>
