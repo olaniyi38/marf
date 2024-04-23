@@ -3,15 +3,15 @@ import Button, { BUTTON_TYPES } from "../shared/Button";
 
 const stats = [
 	{
-		value: 20,
+		value: 1,
 		title: "men empowered",
 		url: "#",
 	},
-	{
-		value: 20,
-		title: "Victims liberated",
-		url: "#",
-	},
+	// {
+	// 	value: 20,
+	// 	title: "Victims liberated",
+	// 	url: "#",
+	// },
 	{
 		value: 20,
 		title: "communities reached",
@@ -23,7 +23,7 @@ const Stats = () => {
 	return (
 		<section className="bg-gray-200 py-8 md:px-8 md:p-12 xl:px-20">
 			<div className=" lg:max-w-[80rem] mx-auto">
-				<div className="grid md:grid-cols-3">
+				<div className="grid md:grid-cols-2">
 					{stats.map(({ value, title, url }) => (
 						<div
 							key={title}

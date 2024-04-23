@@ -4,6 +4,7 @@ export const theme = {
   extend: {
     colors: {
       "brick-red": "#cc2f3b",
+      "blue":"#0274bb",
       cinder: "#0b0d17",
       mandy: "#d9636c",
     },

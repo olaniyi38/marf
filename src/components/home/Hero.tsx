@@ -1,4 +1,4 @@
-import imageSrc from "../../assets/images/volunteer-desktop.png";
+import imageSrc from "../../assets/images/FB_IMG_1713621103156.jpg";
 import Button from "../shared/Button";
 
 const Hero = () => {
@@ -15,16 +15,20 @@ const Hero = () => {
 				<h1 className=" text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:pr-8 font-bold max-w-[45rem]">
 					Empowering Men to Stand Against Sexual Violence
 				</h1>
-				<p className="text-[1.07rem] md:max-w-[80%] lg:max-w-[65%] xl:text-lg">
+				<p className="text-[1.07rem] md:max-w-[80%] lg:max-w-[65%] xl:text-lg mb-2">
 					When one man speaks up... a few things can change. Imagine what will
 					happen if we all speak up against rape. Society can become safer for
 					every child, if you lend a helping hand or raise your voice at the
-					evil ones.
+					evil ones...
 					<span className="block">
 						Save a life today and join other men fighting this war..
 					</span>
 				</p>
 				<Button>Join Us</Button>
+				<span className="block">
+					(You will be directed to sign up to our email list to get more
+					information)
+				</span>
 			</div>
 		</section>
 	);

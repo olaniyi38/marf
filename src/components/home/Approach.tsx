@@ -1,11 +1,15 @@
-import { GoArrowRight } from "react-icons/go";
-import imageSrc from "../../assets/images/home-stories.png";
 import Button, { BUTTON_TYPES } from "../shared/Button";
+import img1 from "../../assets/images/VideoCapture_20240421-184117.jpg";
+import img2 from "../../assets/images/VideoCapture_20240421-184147.jpg";
+import img3 from "../../assets/images/VideoCapture_20240421-184952.jpg";
+import img4 from "../../assets/images/FB_IMG_1713722082170.jpg";
+import { GoArrowRight } from "react-icons/go";
 
 type TApproach = {
 	title: string;
 	content: string;
 	items?: string[];
+	img: string;
 };
 
 const approaches: TApproach[] = [
@@ -14,20 +18,24 @@ const approaches: TApproach[] = [
 		content: `They provide us with the manpower and resources to actively engage with
 		 policymakers and government agencies to advocate for yhe implementation of policies and
 		  legislation that provide human right and address SGBV`,
+		img: img3,
 	},
 	{
 		title: "Partnership with volunteers and other men fighting this menace",
-		content: `It is only possible because of detailed  research and documentation of cases and victims. We know better about what is needed and where. We dont just channel the wrong resources to where it’s not needed. Communities are diverse and different, but we make sure that no community is left behind in understanding ans stancing against what is wrong. `,
+		content: `Ofcourse, communities are diverse and different, but we make sure that no community we engage is left behind in their understanding the damaging effects of SGBV on society and taking a stand against what is wrong... These partnerships are only successful because of our track record of documenting and revealing the truth about every situation.`,
+		img: img1,
 	},
 	{
 		title: "Every man in every community we visit is taught:",
 		content: ``,
 		items: [
-			"how to take legal action against violators",
+			"how to take legal action against violators.",
 			"how to spot unhealthy behaviours before they escalate into abuse.",
 			"how to know if someone has been abused and what to do in different situations to help them.",
-			"how to influence other people to adopt healthy behaviour and attitude, teach how to respond to victims to make their recovery process easier",
+			"how to influence other people to adopt healthy behaviour and attitude.",
+			"how to respond to victims to make their recovery process easier.",
 		],
+		img: img2,
 	},
 
 	{
@@ -35,6 +43,7 @@ const approaches: TApproach[] = [
 			"Through in-depth capacity initiatives, we take these men to the next level",
 		content: `By giving adequate exposure during educational awareness programs. As skilled and learned gender advocates develop in these communities.
 		Mobilization efforts and campaigns become easily acceptable and a thing done with ease. More people can then demand accountability from local authorities to bring any offenders to book`,
+		img: img4,
 	},
 ];
 
@@ -57,13 +66,15 @@ const Approach = () => {
 				</p>
 
 				<div className="grid gap-y-8 md:gap-y-12 ">
-					{approaches.map(({ title, content, items }) => (
-						<div key={title} className="md:flex rounded-lg even:flex-row-reverse">
-							<div className="basis-[50%]">
+					{approaches.map(({ title, content, items, img }) => (
+						<div
+							key={title}
+							className="md:flex rounded-lg even:flex-row-reverse">
+							<div className="basis-[50%] ">
 								<img
-									src={imageSrc}
+									src={img}
 									alt=""
-									className="w-full h-full object-cover"
+									className="w-full h-full md:h-[28rem]"
 								/>
 							</div>
 							<div className="px-4 md:p-8 py-4  lg:py-12 basis-[50%]  bg-brick-red text-white ">

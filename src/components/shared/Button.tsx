@@ -16,15 +16,17 @@ const Button = ({
 	extraClasses,
 }: Props) => {
 	return (
-		<button
-			className={
-				"capitalize rounded px-3 py-1  md:px-4 md:py-2 lg:px-6 " +
-				buttonType +
-				" " +
-				extraClasses
-			}>
-			{children}
-		</button>
+		<a href="https://chat.whatsapp.com/KsUlhS6mi5LILGhW8FVCcd" className="inline-block">
+			<button
+				className={
+					"capitalize rounded px-3 py-1  md:px-4 md:py-2 lg:px-6 " +
+					buttonType +
+					" " +
+					extraClasses
+				} >
+				{children}
+			</button>
+		</a>
 	);
 };
 

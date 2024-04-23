@@ -2,6 +2,7 @@ import { FaBars } from "react-icons/fa6";
 import Button from "./Button";
 import Marquee from "react-fast-marquee";
 import { useState } from "react";
+import logoSrc from "../../assets/images/IMG-20240406-WA0021.jpg";
 
 const NAV_LINKS = [
 	{
@@ -10,19 +11,19 @@ const NAV_LINKS = [
 	},
 	{
 		title: "about us",
-		url: "#",
+		url: "https://chat.whatsapp.com/KsUlhS6mi5LILGhW8FVCcd",
 	},
 	{
 		title: "blog",
-		url: "#",
+		url: "https://chat.whatsapp.com/KsUlhS6mi5LILGhW8FVCcd",
 	},
 	{
 		title: "events",
-		url: "#",
+		url: "https://chat.whatsapp.com/KsUlhS6mi5LILGhW8FVCcd",
 	},
 	{
 		title: "contact us",
-		url: "#",
+		url: "https://chat.whatsapp.com/KsUlhS6mi5LILGhW8FVCcd",
 	},
 ];
 
@@ -45,16 +46,19 @@ const Header = () => {
 				<Marquee
 					speed={30}
 					pauseOnHover
-					className="px-3 text-sm bg-brick-red text-white   md:py-2 ">
+					className="px-3 text-sm bg-blue text-white   md:py-2 ">
 					{FACTS.map((fact) => (
 						<p className=" inline-block mx-2">----{fact}-----</p>
 					))}
 				</Marquee>
 			</div>
 			<header className=" sticky top-5 bg-white lg:static">
-				<div className="px-3 py-2 md:px-6 md:py-4 xl:px-4 flex items-center justify-between max-w-[85rem] mx-auto ">
-					<span className=" font-black text-brick-red md:text-lg lg:text-xl">
-						MARF
+				<div className="px-3 py-1 md:px-6 xl:px-4 flex items-center justify-between max-w-[85rem] mx-auto ">
+					<span className=" w-12 lg:w-20 h-auto">
+						<img
+							src={logoSrc}
+							alt="logo"
+						/>
 					</span>
 					<div>
 						<nav className="hidden lg:flex items-center gap-x-8">
