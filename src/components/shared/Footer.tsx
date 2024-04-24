@@ -142,7 +142,7 @@ const Footer = () => {
 												<a
 													key={url}
 													href={url}
-													className="bg-brick-red rounded-full p-2">
+													className="bg-blue rounded-full p-2">
 													{icon}
 												</a>
 											))}

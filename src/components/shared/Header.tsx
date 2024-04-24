@@ -46,7 +46,7 @@ const Header = () => {
 				<Marquee
 					speed={30}
 					pauseOnHover
-					className="px-3 text-sm bg-blue text-white   md:py-2 ">
+					className="px-3 text-sm bg-brick-red text-white   md:py-2 ">
 					{FACTS.map((fact) => (
 						<p className=" inline-block mx-2">----{fact}-----</p>
 					))}

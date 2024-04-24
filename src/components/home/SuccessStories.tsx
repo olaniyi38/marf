@@ -49,7 +49,7 @@ const SuccessStories = () => {
 		<section className="mx-auto">
 			<div className=" py-12  lg:py-20 ">
 				<div className="space-y-8 lg:space-y-10 ">
-					<h1 className="text-xl text-center md:text-2xl lg:text-3xl lg:mb-16 uppercase underline underline-offset-[.5rem] text-brick-red">
+					<h1 className="text-xl text-center md:text-2xl lg:text-3xl lg:mb-16 uppercase underline underline-offset-[.5rem] text-blue">
 						we have won some battles
 					</h1>
 					<Stats />
@@ -64,7 +64,7 @@ const SuccessStories = () => {
 				<div className="px-6 md:px-8 lg:px-12 xl:px-0 max-w-[80rem] mx-auto mt-8 md:mt-12 lg:mt-20 grid md:grid-cols-2 gap-8 md:gap-y-10 lg:gap-12 ">
 					{stories.map(({ img, url, title, content }, i) => (
 						<div
-							className=""
+							className="flex flex-col"
 							key={title + i}>
 							<div className="">
 								<img
@@ -76,10 +76,10 @@ const SuccessStories = () => {
 							<p className=" pr-4 text-[1.07rem] lg:text-lg mt-3 mb-4 font-medium">
 								{title}
 							</p>
-							<p className="">{content}</p>
+							<p className="mb-2">{content}</p>
 							<a
 								href={url}
-								className=" block text-brick-red font-bold mt-2 uppercase lg:text-lg">
+								className=" block text-blue font-bold uppercase lg:text-lg mt-auto">
 								Read more
 							</a>
 						</div>

@@ -51,7 +51,7 @@ const Approach = () => {
 	return (
 		<section className="max-w-[80rem] mx-auto ">
 			<div className="px-6 md:px-8 py-8 md:py-12 lg:px-8 xl:px-0 lg:py-20 space-y-8 lg:space-y-12">
-				<h1 className="text-2xl lg:text-3xl text-center text-brick-red uppercase underline underline-offset-[.3rem]">
+				<h1 className="text-2xl lg:text-3xl text-center text-blue uppercase underline underline-offset-[.3rem]">
 					How we win
 				</h1>
 				<p className=" text-center font-medium text-lg lg:text-xl md:max-w-[80%] lg:max-w-[60%] md:mx-auto">
@@ -77,7 +77,7 @@ const Approach = () => {
 									className="w-full h-full md:h-[28rem]"
 								/>
 							</div>
-							<div className="px-4 md:p-8 py-4  lg:py-12 basis-[50%]  bg-brick-red text-white ">
+							<div className="px-4 md:p-8 py-4  lg:py-12 basis-[50%]  bg-blue text-white ">
 								<h3 className=" font-semibold text-[1.2rem] mb-3 lg:mb-6 lg:text-xl">
 									{title}
 								</h3>
