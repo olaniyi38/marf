@@ -16,18 +16,17 @@ const Hero = () => {
 					Empowering Men to Stand Against Sexual Violence
 				</h1>
 				<p className="text-[1.07rem] md:max-w-[80%] lg:max-w-[65%] xl:text-lg mb-2">
-					When one man speaks up... a few things can change. Imagine what will
-					happen if we all speak up against rape. Society can become safer for
-					every child, if you lend a helping hand or raise your voice at the
-					evil ones...
+					When one man speaks up... a few things can change. <br/><br/>Imagine what could
+					happen if we all speak up against rape and domestic violence.<br/> <br/>Society can become safer for
+					every woman and child, if you lend a helping hand or raise your voice at the
+					evil ones...<br/> <br/>
 					<span className="block">
 						Save a life today and join other men fighting this war..
 					</span>
 				</p>
 				<Button>Join Us</Button>
 				<span className="block">
-					(You will be directed to sign up to our email list to get more
-					information)
+					(By clicking the 'Join Us' button, you will be re-directed to our <br/> WhatsApp group where we interact and discuss solutions against <br/> rape and gender violence)
 				</span>
 			</div>
 		</section>

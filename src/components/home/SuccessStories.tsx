@@ -49,16 +49,19 @@ const SuccessStories = () => {
 		<section className="mx-auto">
 			<div className=" py-12  lg:py-20 ">
 				<div className="space-y-8 lg:space-y-10 ">
-					<h1 className="text-xl text-center md:text-2xl lg:text-3xl lg:mb-16 uppercase underline underline-offset-[.5rem] text-blue">
+					<h1 className="text-xl text-center md:text-2xl lg:text-3xl lg:mb-12 uppercase underline underline-offset-[.5rem] text-blue">
 						we have won some battles
 					</h1>
-					<Stats />
-					<p className="font-medium text-center text-balance text-[1.07rem] md:text-lg lg:text-xl lg:max-w-[60rem] lg:mx-auto">
-						We have been on a mission to cultivate a cohort of male champions
-						dedicated to eradicating SGBV in our communities and nation. It is
-						getting more serious… But the good news is we have on many battles
-						already.
-						<p>Here are some of them;</p>
+					<p className="font-medium text-center text-balance text-[1.07rem] md:text-lg lg:text-xl lg:max-w-[60rem] lg:mx-auto space-y-2">
+						<span>
+							We have been on a mission to cultivate male champions dedicated to
+							eradicating SGBV in our communities and nation.
+						</span>
+						<span className="block">It is getting more serious…</span>
+						<span className="block">
+							But the good news is we have won many battles already.
+						</span>
+						<span className="block">Here are some of them</span>
 					</p>
 				</div>
 				<div className="px-6 md:px-8 lg:px-12 xl:px-0 max-w-[80rem] mx-auto mt-8 md:mt-12 lg:mt-20 grid md:grid-cols-2 gap-8 md:gap-y-10 lg:gap-12 ">
@@ -85,6 +88,7 @@ const SuccessStories = () => {
 						</div>
 					))}
 				</div>
+				<Stats />
 			</div>
 		</section>
 	);

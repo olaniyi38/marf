@@ -18,13 +18,10 @@ const Cta = () => {
 					</h1>
 					<p className=" space-y-8 *:block text-[1.07rem] lg:text-xl md:max-w-[80%]">
 						<span>
-							We envision a world where abuse and discrimination are relics of
-							the past, replaced by compassion and fervent commitment to
-							safeguarding children, women and, the marginalzsed.
-						</span>
-						<span>
-							We will achieve this by enhancing prevention mechanisms and
-							supporting survivors with pyschosocial services.
+							We will unlock empowerment through dynamic campaigns like we have been doing...
+							<br/> <br/> But we need you to make our campaigns and work more engaging so we can compel the policy makers to take action against bad actors.
+							<br/> <br/>
+							This will ensure that justice is within reach and unwavering support is provided for survivors and their families.
 						</span>
 					</p>
 					<Button extraClasses="self-start">Join Us</Button>
@@ -33,9 +30,13 @@ const Cta = () => {
 			<div className="bg-white py-12 px-6 md:px-12 lg:py-16 ">
 				<div className="max-w-[80rem] mx-auto rounded-lg bg-blue text-white py-16 px-8  text-center space-y-4 md:space-y-8">
 					<p className=" font-semibold md:px-4 text-lg md:text-[1.7rem]  xl:text-4xl lg:max-w-[70%] text-center  mx-auto">
-						Together we can safeguard our women and children from sexual
-						violators
+					Together We Can Protect Our Women and Children from Sexual
+						Violators
 					</p>
+					<Button>Join Us</Button>
+					<span className="block">
+					(By clicking the 'Join Us' button, you will be re-directed to our <br/> WhatsApp group where we interact and discuss solutions against <br/> rape and gender violence)
+				</span>
 				</div>
 			</div>
 		</section>

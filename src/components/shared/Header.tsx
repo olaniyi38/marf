@@ -46,14 +46,18 @@ const Header = () => {
 				<Marquee
 					speed={30}
 					pauseOnHover
-					className="px-3 text-sm bg-brick-red text-white   md:py-2 ">
-					{FACTS.map((fact) => (
-						<p className=" inline-block mx-2">----{fact}-----</p>
+					className="px-3 text-sm bg-brick-red text-white   py-1 md:py-2 ">
+					{FACTS.map((fact, i) => (
+						<p
+							className=" inline-block mx-2"
+							key={fact + i}>
+							----{fact}-----
+						</p>
 					))}
 				</Marquee>
 			</div>
 			<header className=" sticky top-5 bg-white lg:static">
-				<div className="px-3 py-1 md:px-6 xl:px-4 flex items-center justify-between max-w-[85rem] mx-auto ">
+				<div className="px-3 py-1 md:px-6  xl:px-4 flex items-center justify-between max-w-[90rem] mx-auto ">
 					<span className=" w-12 lg:w-20 h-auto">
 						<img
 							src={logoSrc}
@@ -73,13 +77,14 @@ const Header = () => {
 							<Button>Join Us</Button>
 						</nav>
 						<nav
-							className={`mobile-nav lg:hidden bg-white top-[3.5rem] md:top-[5rem] ${
+							className={`mobile-nav lg:hidden bg-white top-[4.5rem] md:top-[5rem] ${
 								mobileNavActive ? "active" : ""
 							}`}>
 							<div className=" flex flex-col p-4 md:px-6 gap-y-2">
 								{NAV_LINKS.map(({ title, url }) => (
 									<a
 										href={url}
+										key={title + url}
 										className="capitalize hover:text-gray-600 inline-block overflow-hidden">
 										<span className="inline-block">{title}</span>
 									</a>

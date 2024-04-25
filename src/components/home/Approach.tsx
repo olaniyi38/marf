@@ -14,19 +14,19 @@ type TApproach = {
 
 const approaches: TApproach[] = [
 	{
-		title: "With the help of our sponsors and partners",
-		content: `They provide us with the manpower and resources to actively engage with
-		 policymakers and government agencies to advocate for yhe implementation of policies and
+		title: "With the help of our sponsors and partners...",
+		content: `Who provide us with the manpower and resources to actively engage with
+		 policymakers and government agencies to advocate for the implementation of policies and
 		  legislation that provide human right and address SGBV`,
 		img: img3,
 	},
 	{
 		title: "Partnership with volunteers and other men fighting this menace",
-		content: `Ofcourse, communities are diverse and different, but we make sure that no community we engage is left behind in their understanding the damaging effects of SGBV on society and taking a stand against what is wrong... These partnerships are only successful because of our track record of documenting and revealing the truth about every situation.`,
+		content: `Of course, communities are diverse and different, but we make sure that no community we engage is left behind in their understanding the damaging effects of SGBV on society and taking a stand against what is wrong... These partnerships are only successful because of our track record of documenting and revealing the truth about every situation.`,
 		img: img1,
 	},
 	{
-		title: "Every man in every community we visit is taught:",
+		title: "Every man in every community we visit is taught;",
 		content: ``,
 		items: [
 			"how to take legal action against violators.",
@@ -55,14 +55,14 @@ const Approach = () => {
 					How we win
 				</h1>
 				<p className=" text-center font-medium text-lg lg:text-xl md:max-w-[80%] lg:max-w-[60%] md:mx-auto">
-					<span className=" ">
-						Through solid support networks and partnerships that facilitate the
-						transformation of communities.{" "}
-					</span>
+					
 					<span className="">
 						We are making communities and homes safer for children.
 					</span>
-					Partnerships with groups like UNICEF, WHO
+
+					<span className="block">
+						Here's how
+					</span>
 				</p>
 
 				<div className="grid gap-y-8 md:gap-y-12 ">
@@ -83,7 +83,7 @@ const Approach = () => {
 								</h3>
 								<div className="lg:text-lg">
 									<p className="">{content}</p>
-									{items && items.map((i) => <p>- {i}</p>)}
+									{items && items.map((i) => <p key={i}>- {i}</p>)}
 								</div>
 								<Button
 									buttonType={BUTTON_TYPES.inverted}
