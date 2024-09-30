@@ -13,7 +13,7 @@ const Hero = ({ posts }: Props) => {
 	const featuredPostsIDs = latestFeaturedPosts.slice(0, 4).map((p) => p.ID);
 
 	return (
-		<div className=" mx-auto py-8 pb-16 md:py-12 md:pb-20">
+		<div className=" mx-auto pb-16 md:py-12 md:pb-20">
 			<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-16 sm:gap-4">
 				{/* Left Column */}
 				<div className="order-2  lg:order-1 space-y-8 sm:space-y-4">
