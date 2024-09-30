@@ -111,7 +111,7 @@ const footerLinks = [
 
 const Footer = () => {
 	return (
-		<footer className=" bg-black text-white py-8 px-4 lg:px-8">
+		<footer className=" bg-black text-white py-8 px-4 lg:px-8 mt-auto">
 			<div className="max-w-[80rem] mx-auto space-y-8 ">
 				{/* <div className="py-4 px-2 bg-white text-black rounded-lg md:max-w-[80%] lg:max-w-none md:mx-auto md:flex md:flex-col md:items-center">
 					<div className="px-2">

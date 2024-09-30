@@ -1,0 +1,359 @@
+{
+    "found": 3,
+    "posts": [
+        {
+            "ID": 4,
+            "site_ID": 234093710,
+            "author": {
+                "ID": 196219298,
+                "login": "olaniyi38",
+                "email": false,
+                "name": "olaniyi38",
+                "first_name": "",
+                "last_name": "",
+                "nice_name": "olaniyi38",
+                "URL": "http://olaniyi38.wordpress.com",
+                "avatar_URL": "https://1.gravatar.com/avatar/40e14ea481775471e1f48a36bee303182b2c3d49b0afcd1f416859034a0aa72d?s=96&d=identicon&r=G",
+                "profile_URL": "https://gravatar.com/olaniyi38",
+                "site_ID": 234093710
+            },
+            "date": "2024-06-11T21:52:33+01:00",
+            "modified": "2024-06-11T21:52:33+01:00",
+            "title": "The Art of Connection",
+            "URL": "https://olaniyi38.wordpress.com/2024/06/11/the-art-of-connection/",
+            "short_URL": "https://wp.me/pfQet0-4",
+            "content": "\n<p>Welcome to WordPress! This is a sample post. Edit or delete it to take the first step in your blogging journey. To add more content here, click the small plus icon at the top left corner. There, you will find an existing selection of WordPress blocks and patterns, something to suit your every need for content creation. And don’t forget to check out the List View: click the icon a few spots to the right of the plus icon and you’ll get a tidy, easy-to-view list of the blocks and patterns in your post.</p>\n",
+            "excerpt": "<p>In the ever-evolving world, the art of forging genuine connections remains timeless. Whether it’s with colleagues, clients, or partners, establishing a genuine rapport paves the way for collaborative success.</p>\n",
+            "slug": "the-art-of-connection",
+            "guid": "https://olaniyi38.wordpress.com/2024/06/11/the-art-of-connection/",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": false,
+                "comment_status": "closed",
+                "pings_open": false,
+                "ping_status": "closed",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": false,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "968544305e731dca1bebc2caf62e68a0",
+            "featured_image": "",
+            "post_thumbnail": null,
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "Uncategorized": {
+                        "ID": 97,
+                        "name": "Uncategorized",
+                        "slug": "uncategorized",
+                        "description": "",
+                        "post_count": 3,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized",
+                                "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized/help",
+                                "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {},
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {},
+            "categories": {
+                "Uncategorized": {
+                    "ID": 97,
+                    "name": "Uncategorized",
+                    "slug": "uncategorized",
+                    "description": "",
+                    "post_count": 3,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized",
+                            "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized/help",
+                            "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710"
+                        }
+                    }
+                }
+            },
+            "attachments": {},
+            "attachment_count": 0,
+            "metadata": [
+                {
+                    "id": "15",
+                    "key": "_wpas_skip_all_services",
+                    "value": "1"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/4",
+                    "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/4/help",
+                    "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710",
+                    "replies": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/4/replies/",
+                    "likes": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/4/likes/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 5,
+            "site_ID": 234093710,
+            "author": {
+                "ID": 196219298,
+                "login": "olaniyi38",
+                "email": false,
+                "name": "olaniyi38",
+                "first_name": "",
+                "last_name": "",
+                "nice_name": "olaniyi38",
+                "URL": "http://olaniyi38.wordpress.com",
+                "avatar_URL": "https://1.gravatar.com/avatar/40e14ea481775471e1f48a36bee303182b2c3d49b0afcd1f416859034a0aa72d?s=96&d=identicon&r=G",
+                "profile_URL": "https://gravatar.com/olaniyi38",
+                "site_ID": 234093710
+            },
+            "date": "2024-06-11T21:52:32+01:00",
+            "modified": "2024-06-11T21:52:32+01:00",
+            "title": "Beyond the Obstacle",
+            "URL": "https://olaniyi38.wordpress.com/2024/06/11/beyond-the-obstacle/",
+            "short_URL": "https://wp.me/pfQet0-5",
+            "content": "\n<p>Welcome to WordPress! This is a sample post. Edit or delete it to take the first step in your blogging journey. To add more content here, click the small plus icon at the top left corner. There, you will find an existing selection of WordPress blocks and patterns, something to suit your every need for content creation. And don’t forget to check out the List View: click the icon a few spots to the right of the plus icon and you’ll get a tidy, easy-to-view list of the blocks and patterns in your post.</p>\n",
+            "excerpt": "<p>Challenges in business are a given, but it’s our response to them that defines our trajectory. Looking beyond the immediate obstacle, there lies a realm of opportunity and learning.</p>\n",
+            "slug": "beyond-the-obstacle",
+            "guid": "https://olaniyi38.wordpress.com/2024/06/11/beyond-the-obstacle/",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": false,
+                "comment_status": "closed",
+                "pings_open": false,
+                "ping_status": "closed",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": false,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "ad08a39e89c740ea53eecb581e2cabc5",
+            "featured_image": "",
+            "post_thumbnail": null,
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "Uncategorized": {
+                        "ID": 97,
+                        "name": "Uncategorized",
+                        "slug": "uncategorized",
+                        "description": "",
+                        "post_count": 3,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized",
+                                "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized/help",
+                                "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {},
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {},
+            "categories": {
+                "Uncategorized": {
+                    "ID": 97,
+                    "name": "Uncategorized",
+                    "slug": "uncategorized",
+                    "description": "",
+                    "post_count": 3,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized",
+                            "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized/help",
+                            "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710"
+                        }
+                    }
+                }
+            },
+            "attachments": {},
+            "attachment_count": 0,
+            "metadata": [
+                {
+                    "id": "22",
+                    "key": "_wpas_skip_all_services",
+                    "value": "1"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/5",
+                    "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/5/help",
+                    "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710",
+                    "replies": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/5/replies/",
+                    "likes": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/5/likes/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        },
+        {
+            "ID": 6,
+            "site_ID": 234093710,
+            "author": {
+                "ID": 196219298,
+                "login": "olaniyi38",
+                "email": false,
+                "name": "olaniyi38",
+                "first_name": "",
+                "last_name": "",
+                "nice_name": "olaniyi38",
+                "URL": "http://olaniyi38.wordpress.com",
+                "avatar_URL": "https://1.gravatar.com/avatar/40e14ea481775471e1f48a36bee303182b2c3d49b0afcd1f416859034a0aa72d?s=96&d=identicon&r=G",
+                "profile_URL": "https://gravatar.com/olaniyi38",
+                "site_ID": 234093710
+            },
+            "date": "2024-06-11T21:52:31+01:00",
+            "modified": "2024-06-11T21:52:31+01:00",
+            "title": "Growth Unlocked",
+            "URL": "https://olaniyi38.wordpress.com/2024/06/11/growth-unlocked/",
+            "short_URL": "https://wp.me/pfQet0-6",
+            "content": "\n<p>Welcome to WordPress! This is a sample post. Edit or delete it to take the first step in your blogging journey. To add more content here, click the small plus icon at the top left corner. There, you will find an existing selection of WordPress blocks and patterns, something to suit your every need for content creation. And don’t forget to check out the List View: click the icon a few spots to the right of the plus icon and you’ll get a tidy, easy-to-view list of the blocks and patterns in your post.</p>\n",
+            "excerpt": "<p>Every business has a unique potential waiting to be tapped. Recognizing the keys to unlock this growth can set an enterprise on the path to unprecedented success.</p>\n",
+            "slug": "growth-unlocked",
+            "guid": "https://olaniyi38.wordpress.com/2024/06/11/growth-unlocked/",
+            "status": "publish",
+            "sticky": false,
+            "password": "",
+            "parent": false,
+            "type": "post",
+            "discussion": {
+                "comments_open": false,
+                "comment_status": "closed",
+                "pings_open": false,
+                "ping_status": "closed",
+                "comment_count": 0
+            },
+            "likes_enabled": true,
+            "sharing_enabled": false,
+            "like_count": 0,
+            "i_like": false,
+            "is_reblogged": false,
+            "is_following": false,
+            "global_ID": "3221c75530135adc806e2f50410b22d6",
+            "featured_image": "",
+            "post_thumbnail": null,
+            "format": "standard",
+            "geo": false,
+            "menu_order": 0,
+            "page_template": "",
+            "publicize_URLs": [],
+            "terms": {
+                "category": {
+                    "Uncategorized": {
+                        "ID": 97,
+                        "name": "Uncategorized",
+                        "slug": "uncategorized",
+                        "description": "",
+                        "post_count": 3,
+                        "parent": 0,
+                        "meta": {
+                            "links": {
+                                "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized",
+                                "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized/help",
+                                "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710"
+                            }
+                        }
+                    }
+                },
+                "post_tag": {},
+                "post_format": {},
+                "mentions": {}
+            },
+            "tags": {},
+            "categories": {
+                "Uncategorized": {
+                    "ID": 97,
+                    "name": "Uncategorized",
+                    "slug": "uncategorized",
+                    "description": "",
+                    "post_count": 3,
+                    "parent": 0,
+                    "meta": {
+                        "links": {
+                            "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized",
+                            "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/categories/slug:uncategorized/help",
+                            "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710"
+                        }
+                    }
+                }
+            },
+            "attachments": {},
+            "attachment_count": 0,
+            "metadata": [
+                {
+                    "id": "29",
+                    "key": "_wpas_skip_all_services",
+                    "value": "1"
+                }
+            ],
+            "meta": {
+                "links": {
+                    "self": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/6",
+                    "help": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/6/help",
+                    "site": "https://public-api.wordpress.com/rest/v1.1/sites/234093710",
+                    "replies": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/6/replies/",
+                    "likes": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/posts/6/likes/"
+                }
+            },
+            "capabilities": {
+                "publish_post": false,
+                "delete_post": false,
+                "edit_post": false
+            },
+            "other_URLs": {}
+        }
+    ],
+    "meta": {
+        "links": {
+            "counts": "https://public-api.wordpress.com/rest/v1.1/sites/234093710/post-counts/post"
+        },
+        "wpcom": true
+    }
+}

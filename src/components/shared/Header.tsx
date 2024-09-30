@@ -3,11 +3,12 @@ import Button from "./Button";
 import Marquee from "react-fast-marquee";
 import { useState } from "react";
 import logoSrc from "../../assets/images/IMG-20240406-WA0021.jpg";
+import { Link, NavLink, Outlet, useMatches } from "react-router-dom";
 
 const NAV_LINKS = [
 	{
 		title: "home",
-		url: "#",
+		url: "/",
 	},
 	{
 		title: "about us",
@@ -15,7 +16,7 @@ const NAV_LINKS = [
 	},
 	{
 		title: "blog",
-		url: "https://chat.whatsapp.com/KsUlhS6mi5LILGhW8FVCcd",
+		url: "/blog",
 	},
 	{
 		title: "events",
@@ -67,12 +68,16 @@ const Header = () => {
 					<div>
 						<nav className="hidden lg:flex items-center gap-x-8">
 							{NAV_LINKS.map(({ title, url }) => (
-								<a
-									href={url}
+								<NavLink
+									to={url}
 									key={title + url}
-									className="capitalize inline-block hover:text-gray-600 ">
+									className={({ isActive }) =>
+										`capitalize inline-block hover:text-gray-600 ${
+											isActive ? "text-brick-red" : ""
+										}`
+									}>
 									{title}
-								</a>
+								</NavLink>
 							))}
 							<Button>Join Us</Button>
 						</nav>
@@ -100,6 +105,8 @@ const Header = () => {
 					</button>
 				</div>
 			</header>
+
+			<Outlet />
 		</>
 	);
 };
