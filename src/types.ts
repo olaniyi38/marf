@@ -101,7 +101,6 @@ export type TPost = {
 	publicize_URLs: string[];
 	terms: TTerms;
 	tags: Record<string, unknown>;
-	categories: Record<string, TCategory>;
 	attachments: Record<string, unknown>;
 	attachment_count: number;
 	metadata: {

@@ -5,12 +5,12 @@ import Cta from "../components/home/Cta";
 
 const Home = () => {
 	return (
-		<main>
+		<>
 			<Hero />
 			<SuccessStories />
 			<Approach />
 			<Cta />
-		</main>
+		</>
 	);
 };
 

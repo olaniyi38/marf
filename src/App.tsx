@@ -2,7 +2,12 @@ import "./App.css";
 import Home from "./pages/Home";
 import Footer from "./components/shared/Footer";
 import Header from "./components/shared/Header";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+	createBrowserRouter,
+
+	RouterProvider,
+	
+} from "react-router-dom";
 import Blog, { loader as PostsLoader } from "./pages/Blog";
 import PostPage, { loader as PostLoader } from "./pages/PostPage";
 

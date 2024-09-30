@@ -22,7 +22,7 @@ const Post = ({ data }: Props) => {
 				/>
 			</Link>
 			<div className="space-y-3">
-				<p className="bg-brick-red text-white w-fit px-4 py-1 font-semibold capitalize text-[.9rem]">
+				<p className="bg-brick-red text-white w-fit px-4 py-[.1rem] font-semibold capitalize text-[.8rem]">
 					News
 				</p>
 				<Link

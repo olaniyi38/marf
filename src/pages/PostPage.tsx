@@ -2,6 +2,7 @@ import { LoaderFunction, useLoaderData } from "react-router-dom";
 import { getPost } from "../lib/getPost";
 import { TPost } from "../types";
 import parse from "html-react-parser";
+import { useEffect } from "react";
 
 export const loader: LoaderFunction = async ({ params }) => {
 	const post = await getPost(params.postId ? params.postId : "");
@@ -17,12 +18,19 @@ const PostPage = () => {
 		day: "numeric",
 	});
 
+	useEffect(() => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth",
+		});
+	}, []);
+
 	return (
-		<main>
+		<>
 			<section className="max-w-[50rem] mx-auto py-8 md:py-12 px-6 md:px-8">
 				<div>
 					<h1 className="font-bold text-xl md:text-2xl">{title}</h1>
-					<p className="text-gray-800  text-[.8rem] sm:text-[.9rem]">
+					<p className="text-gray-500  text-[.8rem] sm:text-[.9rem] pt-1">
 						by <span>{author?.name}</span> | <span>{date}</span> |{" "}
 						<span>NEWS</span>
 					</p>
@@ -31,7 +39,7 @@ const PostPage = () => {
 					{parse(content)}
 				</div>
 			</section>
-		</main>
+		</>
 	);
 };
 

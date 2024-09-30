@@ -3,7 +3,7 @@ import Button from "./Button";
 import Marquee from "react-fast-marquee";
 import { useState } from "react";
 import logoSrc from "../../assets/images/IMG-20240406-WA0021.jpg";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useNavigation } from "react-router-dom";
 
 const NAV_LINKS = [
 	{
@@ -36,7 +36,7 @@ const FACTS = [
 
 const Header = () => {
 	const [mobileNavActive, setMobileNavActive] = useState(false);
-
+	const navigation = useNavigation();
 	function toggleMobileNav() {
 		setMobileNavActive(!mobileNavActive);
 	}
@@ -106,7 +106,14 @@ const Header = () => {
 				</div>
 			</header>
 
-			<Outlet />
+			<main className="main">
+				{navigation.state === "loading" && (
+					<div className="overlay">
+						<span className="loader"></span>
+					</div>
+				)}
+				<Outlet />
+			</main>
 		</>
 	);
 };
