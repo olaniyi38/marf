@@ -11,10 +11,10 @@ const Hero = ({ posts }: Props) => {
 	console.log(posts);
 
 	return (
-		<div className=" mx-auto py-8 md:py-12 md:pb-20">
+		<div className=" mx-auto py-8 pb-16 md:py-12 md:pb-20">
 			<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-16 sm:gap-4">
 				{/* Left Column */}
-				<div className="space-y-8 sm:space-y-4">
+				<div className="order-2  lg:order-1 space-y-8 sm:space-y-4">
 					<div className="bg-white shadow rounded-lg overflow-hidden">
 						<div className="aspect-[4/2.5]">
 							<img
@@ -46,7 +46,7 @@ const Hero = ({ posts }: Props) => {
 				</div>
 
 				{/* Middle Column */}
-				<div className="md:col-span-2 space-y-4">
+				<div className="order-3 lg:order-2 md:col-span-2 space-y-4">
 					<div className="bg-white shadow rounded-lg overflow-hidden">
 						<div className="aspect-[4/2.5]">
 							<img
@@ -67,7 +67,7 @@ const Hero = ({ posts }: Props) => {
 				</div>
 
 				{/* Right Column */}
-				<div className="md:col-span-3 lg:col-span-1">
+				<div className="order-1 lg:order-3 md:col-span-3 lg:col-span-1">
 					<div className="bg-white shadow rounded-lg p-4">
 						<h2 className="font-bold text-xl md:text-2xl mb-4">LATEST NEWS</h2>
 						<ul className="space-y-4">

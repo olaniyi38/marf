@@ -28,7 +28,7 @@ const PostsList = ({ posts }: Props) => {
 		}
 	};
 	return (
-		<section className="py-8 md:pt-20 flex flex-col gap-y-16 border-t border-t-gray-600">
+		<section className="py-8 pt-16 md:pt-20 flex flex-col gap-y-16 border-t border-t-gray-600">
 			<div className=" grid grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] gap-y-16 gap-x-10">
 				{currentPosts.map((p) => (
 					<>
