@@ -82,17 +82,21 @@ const Header = () => {
 							<Button>Join Us</Button>
 						</nav>
 						<nav
-							className={`mobile-nav lg:hidden bg-white top-[4.5rem] md:top-[5rem] ${
+							className={`mobile-nav lg:hidden bg-white top-[5rem] ${
 								mobileNavActive ? "active" : ""
 							}`}>
 							<div className=" flex flex-col p-4 md:px-6 gap-y-2">
 								{NAV_LINKS.map(({ title, url }) => (
-									<a
-										href={url}
+									<NavLink
+										to={url}
 										key={title + url}
-										className="capitalize hover:text-gray-600 inline-block overflow-hidden">
+										className={({ isActive }) =>
+											`capitalize hover:text-gray-600 inline-block overflow-hidden  ${
+												isActive ? "text-brick-red" : ""
+											}`
+										}>
 										<span className="inline-block">{title}</span>
-									</a>
+									</NavLink>
 								))}
 								<Button>Join Us</Button>
 							</div>
