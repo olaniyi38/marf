@@ -88,6 +88,7 @@ const Header = () => {
 							<div className=" flex flex-col p-4 md:px-6 gap-y-2">
 								{NAV_LINKS.map(({ title, url }) => (
 									<NavLink
+										onClick={toggleMobileNav}
 										to={url}
 										key={title + url}
 										className={({ isActive }) =>
