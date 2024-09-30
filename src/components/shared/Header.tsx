@@ -3,7 +3,7 @@ import Button from "./Button";
 import Marquee from "react-fast-marquee";
 import { useState } from "react";
 import logoSrc from "../../assets/images/IMG-20240406-WA0021.jpg";
-import { Link, NavLink, Outlet, useMatches } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const NAV_LINKS = [
 	{
