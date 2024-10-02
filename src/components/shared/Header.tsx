@@ -29,9 +29,9 @@ const NAV_LINKS = [
 ];
 
 const FACTS = [
-	"Every 68 seconds, a Nigerian is sexually assaulted. And every 9 minutes, that victim is a child.” - UNHCR (2023)",
-	"Every 68 seconds, a Nigerian is sexually assaulted. And every 9 minutes, that victim is a child.” - UNHCR (2023)",
-	"Every 68 seconds, a Nigerian is sexually assaulted. And every 9 minutes, that victim is a child.” - UNHCR (2023)",
+	`According to UNICEF, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
+	`According to UNICEF, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
+	`According to UNICEF, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
 ];
 
 const Header = () => {
