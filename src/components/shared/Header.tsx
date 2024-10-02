@@ -29,9 +29,9 @@ const NAV_LINKS = [
 ];
 
 const FACTS = [
-	`According to UNICEF, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
-	`According to UNICEF, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
-	`According to UNICEF, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
+	`According to UNICEF, in Nigeria, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
+	`According to UNICEF, in Nigeria, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
+	`According to UNICEF, in Nigeria, 1 in 4 girls experience sexual violence before the age of 18 while 1 in 10 boys experience sexual violence before the age of 18.`,
 ];
 
 const Header = () => {
